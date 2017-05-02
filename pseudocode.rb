@@ -1,3 +1,5 @@
+#Ellen Cooper 5/2/17
+
 #1. How will I know when the problem is solved? When all possible customer inputs give the correct response.
 #2. How do you want to use the software? I want to get customer input and provide responses through the terminal.
 #3. What’s the (next-)most trivial possible case? Setting up if statements to direct the correct response.
