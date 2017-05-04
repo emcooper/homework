@@ -1,7 +1,7 @@
-#initialize goodbyes_upper variable to 0
+
 goodbyes_upper = 0
 ready_to_quit = false
-#puts introductory message
+
 puts "HELLO, THIS IS A GROCERY STORE!"
 
 until ready_to_quit
@@ -23,14 +23,3 @@ until ready_to_quit
 end
 
 puts "THANK YOU FOR CALLING!"
-
-
-#while goodbyes_upper < 2, loop through the following:
-  #get customer input
-  #if custmer input is just enter, puts "HELLO?!"
-  #elsif customer input contains lowercase letter, puts "I AM HAVING A HARD TIME HEARING YOU"
-  #elsif customer input is "GOODBYE!", add 1 to goodbyes_upper
-    #if goodbyes_upper == 1, puts "ANYTHING ELSE I CAN HELP WITH?"
-    #elsif goodbyes_upper == 2, puts "THANK YOU FOR CALLING!"
-  #elsif customer input is all uppercase letters, puts "NO, THIS IS NOT A PET STORE"
-#end loop
