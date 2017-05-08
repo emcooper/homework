@@ -1,8 +1,8 @@
 class InsertionSort
-  attr_reader :input
 
-  def initialize(input)
+  def sort(input)
     @input = input
+    puts result
   end
 
   def letters_to_ascii
@@ -48,15 +48,15 @@ class InsertionSort
     sorted
   end
 
-  def sort
+  def result
     if @input[0].class == String
       result = ascii_to_letters
     else
       result = insert
     end
-    puts result
+    result
   end
 end
 
-sorter = InsertionSort.new(["d", "b", "a", "c"])
-sorter.sort
+sorter = InsertionSort.new
+sorter.sort(["d", "b", "a", "c"])
